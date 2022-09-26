@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+    background-color: black;
+    
+}
+
+.container{
+    /* display: grid; */
+    columns: 4;
+    column-gap: 0.5rem;
+    padding:0rem 5rem 10rem 10rem;
+}
+ /* only for Image Gallery Heading */
+.heading {
+    color: rgb(237, 231, 231);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.heading span{
+    color: rgb(89, 219, 255);
+    font-weight: 300;
+}
+
+  /* from here we start design our gallery */
+.heading h3{
+    border-bottom: 2px solid rgb(89, 219, 255);
+}
+
+.grid-images{
+    margin-bottom: 0.5rem;  
+}
+
+img{
+    width: 100%;
+    border: 1px solid rgb(89, 219, 255);
+    border-radius: 5px;
+    cursor: pointer;
+    /* position: relative; */
+    z-index: -1;
+}
+
+img:hover{
+   width: 120%;
+   z-index: 10;
+}

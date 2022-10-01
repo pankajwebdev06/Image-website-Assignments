@@ -1,5 +1,10 @@
 # Git Tutorial
 
+Cloning a git repository
+```
+git clone git@github.com:pankajwebdev06/Image-website-Assignments.git
+```
+
 Adding a file in the  git repository 
 
 ``` 

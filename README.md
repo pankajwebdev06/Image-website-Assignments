@@ -25,6 +25,18 @@ To pull  the changes from remote repository to local repository.
 git pull
 
 ```
+How to create a new branch.
+
+```
+git branch name
+git checkout name
+```
+Pushing a local branch to remote stream.
+```
+git push --set-upstream origin name
+```
+
+
 
 
 
